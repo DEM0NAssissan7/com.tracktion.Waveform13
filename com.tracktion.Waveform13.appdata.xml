@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
-  <id>com.tracktion.Waveform</id>
-  <name>Waveform11</name>
+  <id>com.tracktion.Waveform13</id>
+  <name>Waveform 13</name>
+  <icon type="stock">waveform13</icon>
   <summary>Digital audio workstation for all music creators</summary>
   <developer_name>Tracktion Software Corporation</developer_name>
-  <icon type="remote">https://www.tracktion.com/wp/wp-content/uploads/2020/03/product-logo-waveform11_3x.png</icon>
   <url type="homepage">https://www.tracktion.com/</url>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=https://marketplace.tracktion.com/terms-of-use</project_license>
@@ -16,7 +16,7 @@
       inspirational workflows and avoiding features not explicitly needed
       to allow the app to remain surprisingly fun and intuitive. While
       other apps try to appeal to broad user groups, for example film score,
-      live sound, performance – Waveform is laser focused on music production.
+      live sound, performance - Waveform is laser focused on music production.
     </p>
     <p>
       NOTE: This wrapper is not verified by, affiliated with, or supported
