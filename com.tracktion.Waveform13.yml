@@ -101,6 +101,12 @@ modules:
         url: https://ftp.gnu.org/gnu/binutils/binutils-2.43.tar.gz
         sha256:  025c436d15049076ebe511d29651cc4785ee502965a8839936a65518582bdd64
 
+  - name: libusb
+    sources:
+      - type: archive
+        url: https://sourceforge.net/projects/libusb/files/libusb-1.0/libusb-1.0.27/libusb-1.0.27.tar.bz2
+        sha256:  ffaa41d741a8a3bee244ac8e54a72ea05bf2879663c098c82fc5757853441575
+
   - name: waveform
     buildsystem: simple
     build-commands:
@@ -114,7 +120,6 @@ modules:
       - install -Dm755 /usr/bin/ar -t /app/bin/
       - install -Dm755 /usr/lib/$(gcc -print-multiarch)/libbfd-*.so -t /app/lib/
       - install -Dm755 /usr/lib/$(gcc -print-multiarch)/libsframe.so.1 -t /app/lib/
-      - install -Dm755 /usr/lib/$(gcc -print-multiarch)/libusb-1.0.so.0
       - install -Dm644 com.tracktion.Waveform13.appdata.xml /app/share/appdata/com.tracktion.Waveform13.appdata.xml
       - install -Dm755 apply_extra.sh /app/bin/apply_extra
       - install -Dm755 waveform.sh /app/bin/waveform
